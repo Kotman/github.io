@@ -6,10 +6,19 @@
     <title>RSVTech</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="bundle.css">
+    <link rel="stylesheet" href="/style.css">
   </head>
   <body class="body">
     <h1 class="body__title">Сайт скоро заработает</h1>
-    <script src="bundle.js"></script>
+    <a class="body__download" href="/assets/Информациооное_письмо_RSV.pdf" target="_blank">Скачать информационное письмо</a>
+    <script type="text/javascript">
+      window.addEventListener('load', function () {
+        var url = '/assets/Информациооное_письмо_RSV.pdf';
+
+        setTimeout(function () {
+          // window.location.assign(url);
+        }, 1000);
+      });
+    </script>
   </body>
 </html>
